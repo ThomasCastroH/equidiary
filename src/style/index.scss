@@ -1,0 +1,46 @@
+body {
+    background-image: url(../assets/svg/layered-waves-haikei.svg);
+}
+
+.home_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 94px;
+    &_img {
+        width: 171px;
+    }
+}
+
+.main {
+    &_pres {
+        display: flex;
+        justify-content: space-between;
+
+        &_svg {
+            width: 564px;
+            margin: 2% 0 0 5%;
+            -moz-transform: scale(-1, 1);
+            -webkit-transform: scale(-1, 1);
+            -o-transform: scale(-1, 1);
+            -ms-transform: scale(-1, 1);
+            transform: scale(-1, 1);
+        }
+
+        &_desc {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 850px;
+            margin: 15% 5% 0 0;
+            color: white;
+
+            &_title {
+                font-size:40px;
+            }
+
+            &_text {
+                font-size: 24px;
+            }
+        }
+    }
+}
